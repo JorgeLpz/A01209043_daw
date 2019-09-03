@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Laboratorio Java Script</title>
+
+<script>
+	function tabla() {
+    
+    var numero = prompt("Numero: ");
+	
+	if(numero >= 1){
+		document.write("<tr>");
+		document.write("<th>Numero</th> <th>Cuadrados</th> <th>Cubos</th>");
+		document.write("</tr>");
+
+		for(var i = 1; i <= numero; i++){
+			document.write("<tr>");
+			document.write("<td>"+i+"</td>" + "<td>"+i*i+"</td>" + "<td>"+i*i*i+"</td>");
+			document.write("</tr>");
+		}document.write("</table>");
+    }
+}
+
+</script>
+	
+
+</head>
+<body>
+	<h1>Lab.4 Tabla de Cuadrados y Cubos</h1>
+
+	<table>
+		<tr>
+			<td><script>tabla()</script></td>
+		</tr>
+	</table>
+
+</body>
+</html>
+</html>

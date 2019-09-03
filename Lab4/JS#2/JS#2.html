@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab.4 JavaScript</title>
+
+	<script>
+		function suma(){
+
+			var alea = Math.floor(Math.random()*10);
+			var alea2 = Math.floor(Math.random()*10);
+			var solucion = alea + alea2;
+			var respuesta = prompt("Adivina el resultado de una suma de dos numeros aleatorios."+alea+alea2);
+
+			if (solucion == respuesta) {
+				document.write("Has adivinado el resultado!");
+				document.write("<br>"+" La suma era:"+ alea + "+"+ alea2 +" "+"="+" "+solucion);
+				document.write("<br>"+ "tiempo tomado =");
+			}
+			else {
+				document.write("Lo siento, es enumero no es correcto :");
+				document.write("<br>"+" La suma era:"+ alea + "+"+ alea2 +" "+"="+" "+solucion);
+				document.write("<br>"+" Tu respuesta fue ="+respuesta);
+				document.write("<br>"+ "tiempo tomado =");
+			}
+		}
+
+		function contador(){
+			var n = 0;
+			var l = document.getElementById("number");
+			window.setInterval(function(){
+			  l.innerHTML = n;
+			  n++;
+			},1000);
+		}
+		
+
+
+	</script>
+
+
+</head>
+<body>
+	<h1>Lab.4 Numeros Aleatorios</h1>
+
+	<div>
+		<p><script>contador();</script></p>
+		<p><script>suma();</script></p>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab.4 JavaScript</title>
+
+	<style>
+		p{
+			text-align: center;
+			padding-top: 150px;
+			font-family: Arial;
+			font-size: 20px;
+		}
+
+		h1{
+			text-align: center;
+			font-size: 35px;
+		}
+	</style>
+
+	<script>
+		function promedio(){
+			var aux = 0;
+		    var matriz = [];
+		    var arreglo = new Array(10);
+			
+			for(var i = 0; i < 5; i++) {
+		    	matriz[i] = [];
+		    	for(var j = 0; j < 10; j++) {
+		        	matriz[i][j] = Math.floor(Math.random()*10);
+		        	aux += matriz[i][j];
+		        	document.write(matriz[i][j]+" ");
+		    	}document.write("<br>");
+		    	arreglo[i] = aux/10;
+			}document.write("<br>");
+			for(i = 0; i < 5; i++){
+				document.write("<strong>Fila"+" "+(i + 1 )+" "+"promedio = </strong>"+" "+arreglo[i]);
+				document.write("<br>");
+			}
+}
+	</script>
+</head>
+
+<body>
+	<h1>Lab.4 Promedios</h1>
+
+	<p><script>promedio()</script></p>
+
+</body>
+</html>

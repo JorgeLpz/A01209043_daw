@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab.4 JavaScript</title>
+
+	<style>
+		p{
+			text-align: center;
+			padding-top: 50px;
+			font-family: Arial;
+			font-size: 20px;
+		}
+
+		h1{
+			text-align: center;
+			font-size: 35px;
+		}
+	</style>
+
+	<script>
+		function inverso(){
+			var num = prompt("Dame un numero a invertir : ");
+			if(num >= 0){
+				var num2 = num.toString();
+				var num3 = num2.split("").reverse().join("");
+				var rev = Number(num3);
+				document.write("<strong>Numero escrito : </strong>"+""+num);
+				document.write("<br>"+"<strong>Numero invertido : </strong>"+""+rev);	
+				}		
+}
+</script>
+
+</head>
+<body>
+	<h1>Lab.4 Función Inversa</h1>
+
+	<p><script>inverso()</script></p>
+
+</body>
+</html>

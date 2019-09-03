@@ -1,0 +1,295 @@
+html{
+		font-family: "Roboto Cn", sans-serif;
+		font-size: 100%;
+}
+
+
+nav{		
+		position: relative;
+		font-size: 1.2em;
+		display: flex;
+		justify-content: space-around;
+		text-decoration: none;
+		align-items: center;
+		font-variant: small-caps;
+		left: 0;
+		right: 0;
+		padding: 0;
+		margin-top: 0;
+		width: 100%;
+		background-color: rgba(30,50,100,.2);
+
+		}
+
+body:after {
+	  content: "Lab 6"; 
+	  font-size: 15em;  
+	  color: rgba(52, 80, 214, 0.1);
+	  z-index: 9999;
+	 
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  position: fixed;
+	  top: 0;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+	    
+	  -webkit-pointer-events: none;
+	  -moz-pointer-events: none;
+	  -ms-pointer-events: none;
+	  -o-pointer-events: none;
+	  pointer-events: none;
+
+	  -webkit-user-select: none;
+	  -moz-user-select: none;
+	  -ms-user-select: none;
+	  -o-user-select: none;
+	  user-select: none;
+}
+
+
+#lista li{
+		list-style: none;
+		text-decoration: none;
+		font-style: italic;
+		float: left;
+		margin: 2em;
+
+}
+
+#MA li{
+		position: relative;
+		font-variant: small-caps;
+		font-size: 1em;
+		width: 100%;
+		left: 0;
+		justify-content: space-around;
+		text-align: left;
+		left: 52em;
+		list-style: none;	
+		text-decoration: none;
+		font-style: italic;
+		margin-top: .5em;
+
+}
+
+
+header{
+		position: relative;
+		left: 0;
+		top: : 0;
+		padding:2em;
+		width: 100%;
+		margin-bottom: 0;
+		background-color: rgba(40,60,100,.9);
+		color: white;
+		text-align: left;
+		}
+
+
+h1{
+		text-align: center;
+		font-size: 2vw;
+		left: 0;
+		padding-left: 0;
+		padding-bottom: 0;
+		bottom: 0;
+		margin-left: 0;
+
+		}
+
+h2 {
+	text-align: center;
+}
+
+#titulo{
+		text-align: center;
+		font-size: 2em;
+}
+
+
+p {
+		text-align: justify-all;
+		font-size: 1vw;
+		}
+
+#pre{
+	text-align: center;
+	font-size: 1.5em;
+}
+
+
+#datos p{
+		font-size: 1vw;
+		margin: .3em;
+		}
+
+
+.p2{
+		font-size: ;
+}
+
+
+.p3{
+		text-align: left;
+		font-size: 1em;
+}
+
+
+.Video{
+		text-align: justify-all;
+		font-size: 1.4em;
+}
+
+button{
+	display: inline-block;
+	background-color: orangered;
+	border: none;
+	text-align: center;
+	font-size: 1em;
+	font-weight: bold;
+	padding: .3em;
+	float: left;
+	margin: 2em;
+	width: 10em;
+	margin-bottom: 3em;
+	transition: all 0.5s;
+	border-radius: 1em;
+	cursor: pointer;
+	left: 20em;
+}
+
+img {
+	width: 20em;
+	height: 20em;
+	margin: 2.6em;
+	border: .3em solid black;
+
+}
+
+#div1 {
+text-align: center;
+font-weight: bold;
+font-style: "Courier New", Monospace;
+  width: 25em;
+  height: 25em;
+  padding: .8em;
+  border: .2em solid blue;
+  float: left;
+  margin: 2em;
+  margin-right: 6em;
+  padding-right: 3em;
+  padding-left: 3em; 
+}
+
+#div2 {
+text-align: center;
+font-weight: bold;
+font-style: "Courier New", Monospace;
+  width: 25em;
+  height: 25em;
+  padding: .8em;
+  border: .2em solid red;
+  float: left;
+  margin: 2em;
+  margin-right: 6em;
+  padding-right: 3em;
+  padding-left: 3em; 
+}
+
+#div3 {
+text-align: center;
+font-weight: bold;
+font-style: "Courier New", Monospace;
+  width: 25em;
+  height: 25em;
+  padding: .8em;
+  border: .2em solid green;
+  float: left;
+  margin: 2em;
+  margin-right: 6em;
+  padding-right: 3em;
+  padding-left: 3em; 
+}
+
+#div4 {
+text-align: center;
+font-weight: bold;
+font-style: "Courier New", Monospace;
+  width: 25em;
+  height: 25em;
+  padding: .8em;
+  border: .2em solid yellow;
+  float: left;
+  margin: 2em;
+  margin-right: 6em;
+  padding-right: 3em;
+  padding-left: 3em; 
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: .5em;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+footer {
+		position: static;
+		width: 100%;
+		color: white;
+		}
+
+
+.finalfoot{
+			left: 0;
+			bottom: 0;
+			padding: 2em;
+			background-color: rgba(40,60,100,.9);
+			text-align: center;
+			font-size: 1vw;
+}
+
+.artfoot{
+		left: 0;
+		bottom: 0;
+		padding: 0;
+		font-size: .75vw;
+		background-color: rgba(40,60,100,.4);
+		text-align: center;
+}
+
+
+#footimg{
+	width: 2em;
+	height: 2em;
+}
+
+#tigmg{
+	width: 60em;
+	height: 25em;
+	margin-left: 25em;
+}
+
+
+
+
+
+
+
+
+
+
+

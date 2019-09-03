@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Laboratorio 6</title>
+	<link rel="icon" type="image/jpg" href="Imagenes/Icono.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body onpageshow="welcome()">
+	<header>
+		<div id ="datos">
+			<p>Nombre: Jorge Andrés López Chávez</p>
+			<p>Correo: jorge.lopezch@outlook.com</p>
+			<p>Matricula: A01209043</p>
+		</div>
+		
+		<div>
+			<h1>Laboratorio 6</h1>
+		</div>
+	</header>
+
+
+	<div>
+			<nav>
+				<ul id="lista">
+					<li><a href="#MA"> Mis Aficiones</a></li>
+					<li><a href="#CC"> Conceptos de Clase</a></li>
+					<li><a href="preguntas.html">Preguntas de Clase</a></li>
+				</ul>
+			</nav>
+
+	</div>	
+
+	<div>
+		<form action="/action_page.php">
+		    <label for="fname">Nombre</label>
+		    <input type="text" placeholder="Nombre" onclick="ayudaN()" >
+
+		    <label>Apellido</label>
+		    <input type="text" placeholder="Apellido" onclick ="ayudaA()">
+
+		    <label>Carrera</label>
+		    <select>
+		      <option>Ingenieria en Sistemas</option>
+		      <option>Ingenieria en Sistemas Digitales</option>
+		      <option>Ingenieria Civil</option>
+		      <option>Licienciatura en Finanzas</option>
+		    </select>
+		  
+		    <input type="button" value="Submit">
+ 		</form>
+	</div>
+
+	<br>
+
+	<section>
+		<article>
+			<h2 id="titulo">Mis aficiones</h2>
+					<div>
+							<ul id="MA">
+								<li><a href="#VJ"> Videojuegos: Halo</a></li>
+								<li><a href="#FB"> Deportes: Futbol</a></li>
+							</ul>
+					</div>	
+			
+				<h2 id="VJ">VideoJuegos</h2>
+
+					<div>
+
+						<p> 
+							A lo largo de mi vida he tenido la oportunidad de jugar varios videojuegos, por lo que mis favoritos se encuntran en el genero de shooting y primera persona. Algunos Videojuegos son Halo, Call of Duty, Gears of War, Conker Live and Reloaded.
+						</p>
+
+						<p>
+							Primeramente jugar Halo ha marcado mi vida de una manera en que me recuerda bastante mi infacia, en especial el Halo Reach porque fue el primer videojuego que empece a jugar de manera online. Antes de ese videojuego jamas habia tenido una experiencia 
+							tan gratificante como jugar contra otros jugadores alrededor del mundo.
+						</p>
+						
+
+						<p>
+							Despues Call of Duty todavia recuerdo uno de mis primeros videojuegos de zombies combinado a hechos historico como los nazis. World At War fue un videjuego que me encanto la mecanica y la jugabilidad ademas de poder compartir dicha experiencia 
+							con mis amigos.
+						</p>
+					</div>
+
+					<br>
+
+						<ul id="Video">
+
+							<li id="fav">Videojuegos Favoritos:</li>
+							<li>Donkey Kong N64</li>
+							<li>Conker Live and Reloaded</li>
+							<li>Halo reach</li>
+							<li>Marvel Ultimate Alliance</li>
+
+						</ul>
+						<div>
+							<button type="button" onclick="esconder()" ondblclick="mostrar()">Mostrar/Esconder</button>
+						</div>
+						<br>
+						<br>
+						<br>
+						<h2> ARRASTRA LA IMAGEN EN EL CAMPO CORRECTO</h2>
+						<br>
+						<br>
+						<br>
+
+					<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"> Conker Live and Reloaded</div>
+					<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"> Halo Reach</div>
+					<div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"> Donkey kong N64</div>
+					<div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">Marvel Ultimate Alliance</div>
+					
+					<img id="Halo" src="Imagenes/reach.png" alt="Imagen de Halo Reach" draggable="true" ondragstart="drag(event)">
+					<img id="Conker" src="Imagenes/conker.jpg" alt="Imagen de Halo Reach" draggable="true" ondragstart="drag(event)">
+					<img id="Donkey" src="Imagenes/donkey.jpg" alt="Imagen de Halo Reach" draggable="true" ondragstart="drag(event)">
+					<img id="MUA" src="Imagenes/mua.jpg" alt="Imagen de Halo Reach" draggable="true" ondragstart="drag(event)">
+
+		<br>
+		<br>
+		<br>
+
+
+				<h2 id="FB">Deportes: Futbol</h2>
+
+					<div>
+
+
+							<p > 	lub de Fútbol Tigres de la Universidad Autónoma de Nuevo León was founded on 7 March 1960. They previously were named the Jabatos de Nuevo León. In 1967, their venue, the Estadio Universitario was built. In the 1973–74 season, José "Ché" Gómez guided the team to the title and promotion to the Primera División de México, now Liga MX. They defeated the Leones Negros de la Universidad de Guadalajara for 3–2. In the 1975–76, Tigres won their first domestic cup, the Copa México (now Copa MX), against América after winning 3–2. </p>
+
+
+							<p>In the 1979-80 season, Tigres made it to the finals against Cruz Azul. In the first leg, Cruz Azul won 1–0 at the Estadio Universitario, and in the second leg, at the Estadio Azteca, Tigres, although down 3–0 at one point, rallied back to ensure a 3–3 draw. Nonetheless, Tigres still lost the finals by an aggregate scoreline of 4–3. In the 1981–82 season, they won their second League championship against Atlante at the Estadio Azteca. In the quarter-finals of postseason, they tied with Guadalajara 1–1 and 1–1 (2–2). In the semi-finals, they defeated América 2–0 and 0–1 (2–1), and in the finals they tied 2–1 and 0–1 (2–2) against Atlante. Tigres won by penalty shoot-out ending 3–1 (5–3 global).[5] In the 1983–84, they lost in quarter-finals against Pumas UNAM 1–0; 0–3 (1–3). In the 1986–87 season, they lost in the semi-finals against Monarcas Morelia 3–2 and 0–2 (3–4). In the 1989–90 season, meanwhile, Tigres finished the tournament as the first place of their group with 40 points and went to liguilla. They lost in quarter-finals by 3–2 and 1–3 (4–5) against Club Universidad de Guadalajara. In 1990, Tigres lost the finals of the 1989–90 Copa Mexico against Puebla. In the 1992–93 season, they earned 44 points and went to play-offs. In the quarter-finals, Tigres lost 0–2 and 2–4 (2–6) against Club León.</p>
+
+
+						<a href="https://www.tigres.com.mx/"><img id="tigmg"src="Imagenes/tigres.jpg" alt="Imagen de Tigres Campeon"></a>
+
+				</div>
+
+
+		</article>
+		
+	<article>
+
+		<h2 id="CC">Conceptos de Clase</h2>
+			<div>
+
+				<table>
+					<tr>
+					<th>Palabra</th>
+					<th>Definición</th>
+				</tr>
+
+				<tr>
+					<td>URL</td>
+					<td>el URL es un localizador de recursos en el internet, ayuda a crear una direccion unica a cada recurso.</td>
+				</tr>
+
+				<tr>
+					<td>MIME</td>
+					<td>Una forma estandarizada para indicar cual es la naturaleza y el formato de un documento. Nos indica como debemos ejecutar una serie de comandos para obtner lo que buscamos, si queremos un documento html entonces debemos utilizar un comando para textos en html.[1]</td>
+				</tr>
+
+				<tr>
+					<td>HTTP Errores</td>
+					<td></td>
+				</tr>
+
+				<tr>
+					<td>XML</td>
+					<td>Es un lenguaje flexible el cual facilita el intercambio de peticiones y repsuestas.[2]</td>
+				</tr>
+
+				<tr>
+					<td>XHTML</td>
+					<td>Es un lenuaje derivado del XML pero sin ser este un lenguaje flexible ya que tiene una sintaxis mas estricta. Toma d ebase HTML4 como una aplicacion de XML para extender tipos de documentos.[3]</td>
+				</tr>
+
+				<tr>
+					<td>HTML5</td>
+					<td>Es la verion más actualizada de HTML, contienen nuevos elemntos y atributos y perimte la colaboración con estilos CSS y Javascvript.</td>
+				</tr>
+				<tr>
+					<td>JAVASCRIPT</td>
+					<td>Es un lenguaje de programación antes usado solamente para creación de paginas web, se implemento primero con un navegador que ahora ha evolucionado y es firefox, ha crecido tanto este lenguaje que ya existen programas de escritorio cpn este lenguaje. </td>
+				</tr>
+
+				<tr>
+					<td>PHP</td>
+					<td>Es un lenguaje de programacion interptreado para crear paginas web de manera dinamica, este codigo se ejecuta desde el servidor pero es conformado en el HTML.[4]</td>
+				</tr>
+
+				<tr>
+					<td>JSP</td>
+					<td>Es una tecnoplogia Java para la creación de paginas web. Nos ayuda a crear paginas web que se puedan ejectutar en disitntos medios, las paginas son creadas a base HTML/XML pero llevan consigo codigo JAVA como script. LEl motor JSP esta basado en los servlets de Javadestinados a ejecutarse en el servidor.[5]</td>
+				</tr>
+
+				<tr>
+					<td>AJAX</td>
+					<td>Es una tecnica para crear o hacer desarrollo web para la creacion de aplicaciones interactivas. Ajax es una técnica válida para múltiples plataformas y utilizable en muchos sistemas operativos y navegadores dado que está basado en estándares abiertos como JavaScript y Document Object Model (DOM). [6]</td>
+				</tr>
+
+				</table>
+				
+			</div>
+
+			<footer class="artfoot">
+					<h3>Referencias:</h3>
+						<p class="p3">[1] https://developer.mozilla.org/es/docs/Web/HTTP/Basics_of_HTTP/MIME_types</p>
+						<p class="p3">[2] https://developer.mozilla.org/es/docs/Glossary/XML</p>
+						<p class="p3">[3] http://www.sidar.org/recur/desdi/traduc/es/xhtml/modxhtml/index.html#s_intro</p>
+						<p class="p3">[4] https://www.php.net/manual/es/intro-whatis.php</p>
+						<p class="p3">[5] https://desarrolloweb.com/articulos/831.php</p>
+						<p class="p3">[6] https://si.ua.es/es/documentacion/mootools/ajax.html</p>
+
+			</footer>
+
+		</article>
+				
+	</section>
+
+		<footer class="finalfoot">
+			<p> Tool for Developing: Sublime Text </p> 
+
+			<a href="https://www.sublimetext.com/3">
+				<img id="footimg" src="Imagenes/sublime.png" width="30" height="30">
+			</a>
+		</footer>
+	<script src="script.js"></script>
+</body>
+</html>
+
+
+
