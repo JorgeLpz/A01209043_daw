@@ -1,8 +1,8 @@
 
     <?php
-      include_once("_Header.html");
-      include_once("_Navigation.html");
-      include_once("_Body.html");
+      include_once("Partial/_Header.html");
+      include_once("Partial/_Navigation.html");
+      include_once("Partial/_Body.html");
 
       function promedio(){
           $numeros = array($_POST["n1"], $_POST["n2"], $_POST["n3"], $_POST["n4"], $_POST["n5"]);
@@ -37,7 +37,7 @@
   }
    		promedio();
         tabla();
-        include_once("_Footer.html");
+        include_once("Partial/_Footer.html");
       
      ?> 
 
