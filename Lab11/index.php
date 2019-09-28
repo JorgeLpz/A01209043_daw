@@ -12,7 +12,7 @@
         
     } else if(isset($_POST["correo"])) {
         
-        $target_dir = "/Users/victoravila/Desktop/Imagenes";
+        $target_dir = 'Hola';
         $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
         $uploadOk = 1;
         $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
